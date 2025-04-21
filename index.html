@@ -1,93 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Simple Website</title>
+    <title>Football Home</title>
 </head>
 <body>
 
     <!-- Navigation Bar -->
     <div class="navbar">
-        <a class="nav-home" href="index.html">Home</a>
-        <a href="stranica1.html">Page 1</a>
+        <a class="nav-home" href="index.html">Početna</a>
+        <a href="stranica1.html">Plivanje</a>
         <a href="stranica2.html">Page 2</a>
     </div>
 
     <!-- Main Content -->
     <div class="content">
-        <h1>Welcome to the Home Page</h1>
-        <p>This is the main page of the site.</p>
+        <h1 style="text-align: center;">Nogomet - Najpopularniji sport na svijetu</h1>
 
-        <h2>Image Example</h2>
-        <img src="example-image.jpg" alt="Example Image" width="400">
+        <h2>O sportu</h2>
+        <p>
+            Nogomet, poznat i kao "kralj sportova", je globalni fenomen koji spaja ljude svih uzrasta i kultura.
+            Igra se na svim kontinentima i u svakom kutku svijeta – od prašnjavih ulica do svjetskih stadiona.
+            Ono što ga čini posebnim je jednostavnost pravila, potreba za minimalnom opremom i ogromna strast koju budi kod igrača i gledatelja.
+        </p>
+        <p>
+            <strong>Dimenzije nogometnog igrališta:</strong> Prema pravilima FIFA-e i UEFA-e, standardna veličina nogometnog igrališta za međunarodne utakmice iznosi 
+            <strong>105 metara u dužinu i 68 metara u širinu</strong>. Ove dimenzije osiguravaju konzistentnost i pravedne uvjete igre na svim profesionalnim terenima.
+        </p>
+        <ul>
+            <li><a href="https://digitalhub.fifa.com/m/5371a6dcc42fbb44/original/d6g1medsi8jrrd3e4imp-pdf.pdf" target="_blank">FIFA službene dimenzije (PDF)</a></li>
+            <li><a href="https://www.uefa.com/MultimediaFiles/Download/uefaorg/Refereeing/02/60/67/07/2606707_DOWNLOAD.pdf" target="_blank">UEFA službene dimenzije (PDF)</a></li>
+        </ul>
 
-        <h2>Audio Example</h2>
-        <audio controls>
-            <source src="example-audio.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
+        <h2>Pravila igre</h2>
+        <ul>
+            <li>Utakmica traje 90 minuta (2 poluvremena po 45 minuta)</li>
+            <li>Svaka ekipa ima 11 igrača, uključujući vratara</li>
+            <li>Lopta se smije igrati svim dijelovima tijela osim rukama (osim za vratara u svom prostoru)</li>
+            <li>Prekršaji uključuju igranje rukom, guranje, udaranje i nesportsko ponašanje</li>
+            <li>Sudac može dodijeliti žuti (upozorenje) ili crveni karton (isključenje)</li>
+        </ul>
 
-        <h2>Video Example</h2>
-        <video width="500" controls>
-            <source src="example-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <h2>Izgled nogometnog igrališta s rasporedom igrača</h2>
+        <div class="center-media">
+            <img src="Slike/teren.webp" alt="Nogometno igralište s rasporedom igrača u formaciji 1-4-3-1" width="600">
+        </div>
 
-        <h2>External Link Example</h2>
-        <p>Here is a helpful website to learn web development concepts:</p>
-        <a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>
+        <h2>Navijačka atmosfera – FIFA Svjetsko prvenstvo: Hrvatska vs. Maroko 2022.</h2>
+        <p>
+            U borbi za treće mjesto na FIFA Svjetskom prvenstvu 2022. godine, Hrvatska se suočila s reprezentacijom Maroka. 
+            Iako nije bilo finala, atmosfera je bila dostojna velikog spektakla. Navijači su u ogromnom broju ispunili stadion i pokazali nepokolebljivu podršku svojim igračima od prve do posljednje minute utakmice.
+        </p>
+        <p>
+            Zvuk s tribina bio je nevjerojatan – pjesme, bubnjevi, zastave koje su vijorile na sve strane i srčano navijanje davali su dodatni vjetar u leđa hrvatskim nogometašima. 
+            Svaki dobar potez i svaki duel bio je ispraćen uzvicima podrške, a trenutak postizanja gola zabilježen je glasnim eksplozijama oduševljenja. 
+        </p>
+        <p>
+            Ova utakmica nije bila samo borba za medalju, već i slavlje nogometa, zajedništva i ponosa. Hrvatski navijači su još jednom pokazali zašto su među najstrastvenijima na svijetu – vjerna podrška, sportski duh i ljubav prema reprezentaciji dominirali su tribinama do samog kraja susreta.
+        </p>
         
-        <h2>Low-Quality Image (Click to View Full Size)</h2>
-        <a href="Slike/covjek.jfif" target="_blank">
-          <img src="Slike/covjek_low.jpg" alt="Low Quality Preview" width="500">
-        </a>
+
+        <h3>Zvuk u trenutku pogotka gola</h3>
+        <div class="center-media">
+            <audio controls>
+                <source src="media/crowd-cheer.mp3" type="audio/mpeg">
+                Vaš preglednik ne podržava audio element.
+            </audio>
+        </div>
+
+        <h3>Video - Najbolji trenuci utakmice</h3>
+        <div class="center-media">
+            <video width="500" controls>
+                <source src="media/utakmica_highlights.mp4" type="video/mp4">
+                Vaš preglednik ne podržava video zapis.
+            </video>
+        </div>
+        
         
 
+        <h2>Galerija</h2>
+        <div class="gallery">
+            <a href="Slike/covjek.jfif" target="_blank">
+                <img src="Slike/covjek_low.jpg" alt="Navijači 1" width="200">
+            </a>
+            <a href="Slike/covjek.jfif" target="_blank">
+                <img src="Slike/covjek_low.jpg" alt="Navijači 2" width="200">
+            </a>
+            <a href="Slike/covjek.jfif" target="_blank">
+                <img src="Slike/covjek_low.jpg" alt="Igrači 1" width="200">
+            </a>
+            <a href="Slike/covjek.jfif" target="_blank">
+                <img src="Slike/covjek_low.jpg" alt="Igrači 2" width="200">
+            </a>
+        </div>
     </div>
+
+    <hr style="margin: 40px auto; width: 80%; border: 1px solid #ccc;">
 
     <!-- Creator Section -->
     <div class="creators">
-      <div class="creator">
-        <a href="Slike/creator1_full.jfif" target="_blank">
-          <img src="Slike/creator1_low.jpg" alt="Creator 1" width="200">
-        </a>
-        <p>
-          <strong><a href="creator1.html">Duro</a></strong>
-        </p>
-        <p>
-          <a href="response1.html">Bavim li se i ja ovim sportom ili ga samo volim?</a>
-        </p>
-      </div>
+        <div class="creator">
+            <a href="Slike/creator1_full.jfif" target="_blank">
+                <img src="Slike/creator1_low.jpg" alt="Creator 1" width="200">
+            </a>
+            <p>
+                <strong><a href="creator1.html">Marko Palčok</a></strong>
+            </p>
+            <p>
+                <a href="response1.html">Bavim li se i ja ovim sportom ili ga samo volim?</a>
+            </p>
+        </div>
 
-      <div class="creator">
-        <a href="Slike/creator1_full.jfif" target="_blank">
-          <img src="Slike/creator1_low.jpg" alt="Creator 2" width="200">
-        </a>
-        <p>
-          <strong><a href="creator2.html">Mirko</a></strong>
-        </p>
-        <p>
-          <a href="response2.html">Bavim li se i ja ovim sportom ili ga samo volim?</a>
-        </p>
-      </div>
+        <div class="creator">
+            <a href="Slike/creator1_full.jfif" target="_blank">
+                <img src="Slike/creator1_low.jpg" alt="Creator 2" width="200">
+            </a>
+            <p>
+                <strong><a href="creator2.html">Mirko</a></strong>
+            </p>
+            <p>
+                <a href="response2.html">Bavim li se i ja ovim sportom ili ga samo volim?</a>
+            </p>
+        </div>
     </div>
 
-
-
-
-
+    <!-- Footer -->
     <footer class="site-footer">
         <p>Fakulteta elektrotehnike, računarstva i informacijskih tehnologija u Osijeku u sklopu kolegija<br>
         Multimedijska tehnika</p>
         <p>
-          <a href="https://www.ferit.unios.hr/upisi-i-studijski-programi/strucni-prijediplomski-studij#racunarstvo#SR6-02" target="_blank">
-            Multimedijska tehnika
-          </a>
+            <a href="https://www.ferit.unios.hr/upisi-i-studijski-programi/strucni-prijediplomski-studij#racunarstvo#SR6-02" target="_blank">
+                Multimedijska tehnika
+            </a>
         </p>
-      </footer>
-      
+    </footer>
 
 </body>
 </html>

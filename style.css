@@ -1,11 +1,13 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f7fa;
+  color: #2c3e50;
 }
 
 /* Navbar styles */
 .navbar {
-  background-color: #2ecc71; /* green */
+  background-color: #2ecc71;
   overflow: hidden;
 }
 
@@ -19,43 +21,77 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Add extra left margin to the first link */
 .navbar a.nav-home {
   margin-left: 100px;
 }
 
 .navbar a:hover {
-  background-color: #27ae60; /* darker green on hover */
+  background-color: #27ae60;
   color: #f1f1f1;
 }
 
+/* Main content styles */
 .content {
-  margin-left: 100px;
-  margin-right: 100px;
-  padding: 20px 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
 }
 
-
-.site-footer {
-  background-color: #f0f0f0;
-  padding: 20px;
+.content h1,
+.content h2,
+.content h3 {
+  color: #1a1a1a;
   margin-top: 40px;
-  text-align: center;
-  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.content p,
+.content ul {
+  font-size: 18px;
+  line-height: 1.7;
   color: #333;
-  border-top: 1px solid #ccc;
+  margin-bottom: 20px;
 }
 
-.site-footer a {
-  color: #006400;
-  text-decoration: none;
+.content ul {
+  padding-left: 25px;
 }
 
-.site-footer a:hover {
-  text-decoration: underline;
+/* Centered media (image, video, audio) */
+.center-media {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
 }
-  
 
+.center-media img,
+.center-media video,
+.center-media audio {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Gallery styles */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.gallery a img {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery a img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Creators section */
 .creators {
   display: flex;
   justify-content: center;
@@ -77,18 +113,30 @@ body {
 .creator a {
   text-decoration: none;
   color: #006400;
-}
-
-.creator a:hover {
-  text-decoration: underline;
-}
-
-.creator a {
-  text-decoration: none;
-  color: #006400;
   font-weight: bold;
 }
 
 .creator a:hover {
   text-decoration: underline;
 }
+
+/* Footer styles */
+.site-footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  border-top: 1px solid #ccc;
+}
+
+.site-footer a {
+  color: #006400;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
