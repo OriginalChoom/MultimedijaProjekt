@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if(notification) {
           notification.classList.add('hidden');
         }
-        imageClickedWhenCreatorOpen = true;
+        
         updateBodyScroll(); // Update scroll state when modal is opened
       });
     });
@@ -116,6 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if(notification) {
         notification.classList.add('hidden');
       }
+      imageClickedWhenCreatorOpen = true; 
       updateBodyScroll(); // Update scroll state when modal is opened
     });
   }
@@ -128,6 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if(notification) {
             notification.classList.remove('hidden');
           }
+          imageClickedWhenCreatorOpen = false;
           updateBodyScroll(); // Update scroll state when modal is closed
       }
     });
@@ -141,6 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if(notification) {
         notification.classList.remove('hidden');
       }
+      imageClickedWhenCreatorOpen = false;
       updateBodyScroll(); // Update scroll state when modal is closed
     });
   }
