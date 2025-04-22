@@ -1,28 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Plivanje</title>
 </head>
-<body>
-        <!-- Navigation Bar -->
-    <div class="navbar">
+<body class="bg-vibrant-blue">
+
+    <div class="notification">Kliknite na sliku da je povećate!</div>
+
+    <div class="navbar flex">
+        <div class="logo-container">
+            <img src="Slike/plivanje_logo.svg" alt="Logo" class="logo">
+        </div>
         <a class="nav-home" href="index.html">Početna</a>
-        <a href="stranica1.html">Plivanje</a>
-        <a href="stranica2.html">Page 2</a>
+        <a href="plivanje.html">Plivanje</a>
+        <a href="veslanje.html">Veslanje</a>
     </div>
 
-    
+    <main class="content center-div">
+        <h1 style="text-align: center;">Markov drugi izbor</h1>
+
+        <div class="carousel">
+            <h1 class="carousel-heading">Plivanje</h1>
+            <div class="carousel-slide active">
+              <img src="media/plivanje.gif" alt="Plivanje GIF">
+            </div>
+        </div>
+
+        <h2>O sportu</h2>
+        <p>
+          Plivanje je pojedinačni i ekipni vodeni sport koji uključuje kretanje kroz vodu korištenjem različitih plivačkih tehnika. Osnovni stilovi plivanja uključuju slobodni stil, prsno, leđno i leptir.
+        </p>
+        <div class="center-div flex">
+            <div class="flex-column">
+                <img src="Slike/plivanje_primjer.jpg" alt="plivanje-primjer" class="main-image-wider">
+                <p>Natjecateljski plivač u utrci [JPG]</p>
+            </div>
+        </div>
+
+        <p>
+          Svaki stil ima vlastita pravila i tehnike. Najpopularniji stil među početnicima i rekreativcima je prsno plivanje jer omogućuje dobar pregled situacije i nije prezahtjevan.
+        </p>
+
+        <p>
+          Plivačka natjecanja održavaju se u bazenima od 25m i 50m. Plivanje je olimpijski sport, a Hrvatska ima uspješne plivače koji su ostvarili odlične rezultate na svjetskoj sceni.
+        </p>
+        <div class="center-div flex">
+          <div class="flex-column">
+            <img src="Slike/olimpijske_igre.jpg" alt="svjetsko prvenstvo" class="main-image-wider">
+            <p>Olimpijske igre [JPG]</p>
+          </div>
+        </div>
+
+        <h2>Pravila sporta</h2>
+        <ul>
+            <li>Utrke se održavaju u bazenima od 25m ili 50m</li>
+            <li>Discipline uključuju različite stilove i udaljenosti</li>
+            <li>Svaki stil ima stroga pravila izvedbe</li>
+            <li>Plivači startaju s blokova, a vrijeme mjeri elektronski sustav</li>
+        </ul>
+
+        <div class="flex-column">
+          <video class="main-image-wider" controls>
+            <source src="media/olimpijske_igre_rekord.mp4" type="video/mp4">
+            Vaš preglednik ne podržava video zapis.
+        </video>
+          <p>Svjetsko prvenstvo u veslanju [MP4]</p>
+      </div>
+
+
+    </main>
+
     <footer class="site-footer">
         <p>Fakulteta elektrotehnike, računarstva i informacijskih tehnologija u Osijeku u sklopu kolegija<br>
         Multimedijska tehnika</p>
         <p>
-          <a href="https://www.ferit.unios.hr/upisi-i-studijski-programi/strucni-prijediplomski-studij#racunarstvo#SR6-02" target="_blank">
-            Multimedijska tehnika
-          </a>
+            <a href="https://www.ferit.unios.hr/upisi-i-studijski-programi/strucni-prijediplomski-studij#racunarstvo#SR6-02" target="_blank">
+                Multimedijska tehnika
+            </a>
         </p>
-      </footer>
+    </footer>
+    <div class="modal hidden">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" src="" alt="Expanded View">
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
