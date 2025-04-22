@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-vibrant">
+    <div class="notification">Kliknite na sliku da je povečate!</div>
+    
+    <!-- Navigation Bar -->
+    <div class="navbar flex">
+        <div class="logo-container">
+            <img src="Slike/lopta.svg" alt="Logo" class="logo">
+        </div>
+        <a class="nav-home" href="index.html">Početna</a>
+        <a href="stranica1.html">Plivanje</a>
+        <a href="stranica2.html">Veslanje</a>
+    </div>
+
+    <main class="content center-div">
+        <h1><strong>Bavim li se ovim sportom?</strong></h1>
+        <div class="flex-column margin-top-60">
+            <img src="Slike/mali-filip.jpg" alt="mali-filip" class="main-image-wider">
+            <p>Kao mali trenirao sam nogomet u <a href=""><strong>HNK Vukovar 1991</strong></a>, igrao sam za limače, mlađe i starije pionire [JPG]</p>
+        </div>
+
+        <div class="flex-column margin-top-60">
+            <img src="Slike/filip-trofej.jpg" alt="filip-trofej" class="main-image-wider">
+            <p>Osvojio sam više turnira [JPG]</p>
+        </div>
+
+        <div class="flex-column margin-top-60">
+            <img src="Slike/tata-trener.jpg" alt="tata-trener" class="main-image-wider">
+            <p>Nasljedio sam ljubav za nogometom od moga oca, koji je nogometni trener [JPG]</p>
+        </div>
+
+        <div class="flex-column margin-top-60">
+            <img src="Slike/filip-veslanje.jpg" alt="tata-trener" class="main-image-wider">
+            <p>Nažalost, nakon nekog vremena odustao sam od nogometa, te počeo se baviti veslanjem</p>
+        </div>
+
+        <div class="flex-column margin-top-60">
+            <video controls>
+                <source src="media/maradona-gol.mp4" type="video/mp4">
+                Vaš preglednik ne podržava video zapis.
+            </video>
+            <p>Moj najdraži nogometni trenutak je <a href="https://www.youtube.com/watch?v=-ccNkksrfls"><strong>gol Diego Maradone poznat kao "Hand of God" na Svjetskom prvenstvu 1986</strong></a></p>
+        </div>
+
+
+        <div class="flex gap-medium margin-top-60">
+            <div class="flex-column">
+                <img src="Slike//real-madrid.svg" alt="real-madrid" class="main-image-wider">
+                <p><a href="https://www.youtube.com/watch?v=-ccNkksrfls"><strong>Real Madrid</strong></a> je moj najdraži klub</p>
+            </div>
+            <div class="flex-column">
+                <audio class="klub-audio" controls>
+                    <source src="media/real-madrid.mp3" type="audio/mpeg">
+                    Vaš preglednik ne podržava audio zapis.
+                </audio>
+                <p><a href="https://www.youtube.com/watch?v=VUFUC8kKgKk"><strong>Pjesma Real Madrid-a </strong></a></p>
+            </div>
+               
+            </div>
+            
+        </div>
+       
+    </main>
+    <div class="modal hidden">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" src="" alt="Expanded View">
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
